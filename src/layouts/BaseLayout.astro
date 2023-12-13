@@ -4,7 +4,7 @@ import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 
-const pageTitle = "Blog";
+const pageTitle = "Inicio";
 ---
 
 <html lang="en">
@@ -16,18 +16,11 @@ const pageTitle = "Blog";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-        <Header />
-        <h1>Mi sitio Astro</h1>
-        <h1>Blog</h1>
-        <h3>Aqui ira el blog!!!!</h3>
-        <ul>
-            <li><a href="/posts/post-1/">Publicación 1</a></li>
-            <li><a href="/posts/post-2/">Publicación 2</a></li>
-            <li><a href="/posts/post-3/">Publicación 3</a></li>
-        </ul>
-        <Footer />
-        <script>
+		<Header />
+		<h1>{pageTitle}</h1>
+		<Footer />
+		<script>
 			import "../scripts/menu.js";
 		</script>
-      </body>
+	</body>
 </html>
