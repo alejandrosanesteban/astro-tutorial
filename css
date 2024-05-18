@@ -1,0 +1,18 @@
+ .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50% !important;
+    z-index: 1;
+    transform: translateY(-50%);
+    bottom: auto;
+  }
+
+  .color-container {
+    width: 150px;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 4px;
+}
